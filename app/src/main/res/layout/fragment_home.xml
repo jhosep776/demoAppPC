@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/text_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/sistema"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_width="233dp"
+            android:layout_height="175dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="75dp"
+            android:layout_marginBottom="25dp"
+            android:layout_weight="1"
+
+            app:srcCompat="@drawable/windoslogo" />
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="233dp"
+            android:layout_height="175dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="25dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/windoslogo" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="233dp"
+            android:layout_height="175dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="25dp"
+            app:srcCompat="@drawable/windoslogo"
+            />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
